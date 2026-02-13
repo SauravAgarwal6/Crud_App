@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Employees</title>
+    <link rel="stylesheet" href="/style/allEmployee.css">
+</head>
+<body>
+
+    <nav class="navbar-container">
+        <figure class="logo">
+           <a href="/index.html">CRUD-APP</a> 
+        </figure>
+
+        <div class="nav-links">
+            <a href="/Pages/createEmployee.html">Create Employee</a>
+            <a href="/Pages/allEmployee.html">All Employees</a>
+        </div>
+    </nav>
+
+    <div class="table-container">
+        <h1>All Employees</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>City</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="employeeTableBody">
+                <!-- Data will come here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../js/allEmployee.js"></script>
+</body>
+</html>
