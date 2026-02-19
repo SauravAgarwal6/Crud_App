@@ -1,0 +1,87 @@
+{
+  "employees": [
+    {
+      "firstName": "Saurav",
+      "middleName": "",
+      "lastName": "Kumar",
+      "maritalStatus": "",
+      "dob": "",
+      "email": "saurav@gmail.com",
+      "mobile": "9876543210",
+      "street": "",
+      "city": "Jharkhandi",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Priya",
+      "lastName": "Verma",
+      "email": "priya.verma@gmail.com",
+      "mobile": "9988776655",
+      "city": "Bangalore"
+    },
+    {
+      "firstName": "Rahul",
+      "middleName": "",
+      "lastName": "Singh",
+      "maritalStatus": "",
+      "dob": "",
+      "email": "rahul.singh@gmail.com",
+      "mobile": "9090909090",
+      "street": "",
+      "city": "Delhi",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "id": "4"
+    },
+    {
+      "firstName": "Neha",
+      "middleName": "",
+      "lastName": "Gupta",
+      "maritalStatus": "",
+      "dob": "",
+      "email": "neha.gupta@gmail.com",
+      "mobile": "9812345678",
+      "street": "",
+      "city": "Madarash",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "id": "5"
+    },
+    {
+      "firstName": "Arjun",
+      "middleName": "",
+      "lastName": "Mehta",
+      "maritalStatus": "",
+      "dob": "",
+      "email": "arjun.mehta@gmail.com",
+      "mobile": "9765432109",
+      "street": "",
+      "city": "Hyderabad",
+      "state": "",
+      "country": "",
+      "zip": "",
+      "id": "6"
+    },
+    {
+      "firstName": "Sneha",
+      "middleName": "Singh",
+      "lastName": "Patel",
+      "maritalStatus": "",
+      "dob": "",
+      "email": "sneha.patel@gmail.com",
+      "mobile": "9871234567",
+      "street": "",
+      "city": "Jharkhand",
+      "state": "",
+      "country": "India",
+      "zip": "",
+      "id": "7"
+    }
+  ]
+}
