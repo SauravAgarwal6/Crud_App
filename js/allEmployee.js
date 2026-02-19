@@ -2,7 +2,7 @@ const tableBody = document.getElementById("employeeTableBody");
 
 async function getEmployees() {
     try {
-        const res = await fetch("http://localhost:3000/employees");
+        const res = await fetch("https://crud-app-backend-yhm8.onrender.com/employees");
 
         if (!res.ok) {
             throw new Error("Failed to fetch data");
@@ -46,7 +46,7 @@ tableBody.addEventListener("click", async (e) => {
         if (!confirmDelete) return;
 
         try {
-            const res = await fetch(`http://localhost:3000/employees/${id}`, {
+            const res = await fetch(`https://crud-app-backend-yhm8.onrender.com/employees/${id}`, {
                 method: "DELETE"
             });
 

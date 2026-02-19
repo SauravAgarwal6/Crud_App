@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     // 1️⃣ Fetch old employee data
-    const res = await fetch(`http://localhost:3000/employees/${id}`);
+    const res = await fetch(`https://crud-app-backend-yhm8.onrender.com/employees/${id}`);
 
     if (!res.ok) {
       throw new Error("Employee not found");
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     };
 
     try {
-      const res = await fetch(`http://localhost:3000/employees/${id}`, {
+      const res = await fetch(`https://crud-app-backend-yhm8.onrender.com/employees/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

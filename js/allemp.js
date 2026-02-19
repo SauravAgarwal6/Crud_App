@@ -1,6 +1,6 @@
 async function getAllEmployee() {
     try {
-        let resp = await fetch("http://localhost:3000/employees")
+        let resp = await fetch("https://crud-app-backend-yhm8.onrender.com/employees")
         let data = await resp.json()
         console.log(data)
     } catch (err) {

@@ -18,7 +18,7 @@ form.addEventListener("submit", function (e) {
         zip: document.getElementById("zip").value
     };
 
-    fetch("http://localhost:3000/employees", {
+    fetch("https://crud-app-backend-yhm8.onrender.com/employees", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
